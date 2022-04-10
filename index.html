@@ -10,19 +10,24 @@
 </head>
 
 <body>
+            <h1>Cash Register App</h1>
+
+            <div class="text">Enter the total bill and cash amount and get the minimum number of notes to return.</div>
     <div class="container">
+ 
         <label for="bill-amount">Bill Amount</label>
         <input id="bill-amount" type="number">
         <button id="next-btn">Next</button>
+        
         <p id="invalid-msg"></p>
        <div id="hide-cash">
         <label for="cash-given">Cash Given</label>
         <input id="cash-given" type="number"> 
-
-
-        <button id="check-btn">Check</button> </div>
+        <button id="check-btn">Check</button>
+     </div>
         <p id="validity-msg"></p>
         <div id="section">
+                        <h4>Return Change:</h4>
         <table>
             <tr>
             <tr>
@@ -47,8 +52,24 @@
 
             </tr>
         </table>
-        </div>
+      
+          </div>
+
+
+      
 </div>
+  <footer id="foot" class="footer">
+      <div class="footer-header">SOCIAL MEDIA</div>
+      <ul class="link social-handles list-non-bullet  ">
+          <li class="list-item-inline"> <a class="link social-handles " href="https://github.com/zabihhaqqani"
+                  target="_blank">GitHub</a> </li>
+          <li class="list-item-inline"> <a class="link social-handles"
+                  href="https://www.linkedin.com/in/zabih-haqqani-7ab187191/" target="_blank">LinkedIn </a> </li>
+          <li class="list-item-inline"> <a class="link social-handles" href="https://twitter.com/zabih01"
+                  target="_blank">Twitter </a> </li>
+          <div class="center-links">
+      </ul>
+  </footer>
     <script src="./app.js"></script>
 </body>
 
